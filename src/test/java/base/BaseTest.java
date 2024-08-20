@@ -36,48 +36,48 @@ public class BaseTest {
         this.adminAuthToken ="6082351515186501364";
     }
 
-    @AfterMethod
-    public void takeSS(ITestContext context)
-    {
-        try
-        {
-            File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-            int count= countImagesInAFolder("/home/yash/IdeaProjects/TMP/src/test/java/screenshots/");
-            FileUtils.copyFile(screenshotFile, new File("/home/yash/IdeaProjects/TMP/src/test/java/screenshots/SoftwareTestingMaterial"+count+".png"));
-        }
-        catch (Exception e1) {
-            e1.printStackTrace();
-        }
-    }
+    // @AfterMethod
+    // public void takeSS(ITestContext context)
+    // {
+    //     try
+    //     {
+    //         File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    //         int count= countImagesInAFolder("/home/yash/IdeaProjects/TMP/src/test/java/screenshots/");
+    //         FileUtils.copyFile(screenshotFile, new File("/home/yash/IdeaProjects/TMP/src/test/java/screenshots/SoftwareTestingMaterial"+count+".png"));
+    //     }
+    //     catch (Exception e1) {
+    //         e1.printStackTrace();
+    //     }
+    // }
 
-    public int countImagesInAFolder(String path)
-    {
-        File f = new File(path);
-        int count = -1;
-        for (File file : f.listFiles()) {
-            if (file.isFile() && file.getName().endsWith(".jpg")) {
-                count++;
-            }
-        }
-        return count<0?0:count;
-    }
+    // public int countImagesInAFolder(String path)
+    // {
+    //     File f = new File(path);
+    //     int count = -1;
+    //     for (File file : f.listFiles()) {
+    //         if (file.isFile() && file.getName().endsWith(".jpg")) {
+    //             count++;
+    //         }
+    //     }
+    //     return count<0?0:count;
+    // }
 
-    public void attachSS(String path)
-    {
-        System.out.println("Count of images is: "+ countImagesInAFolder(path));
-        File f= new File(path);
-        for(File file: f.listFiles())
-        {
-            System.out.println("YES");
-            if(file.isFile() && file.getName().endsWith(".png"))
-            {
-                System.out.println("It entered");
-                System.out.println("Filepath is: "+ file.getAbsolutePath());
-                Reporter.log("</br><img id='ErrorResult' src='" + file.getAbsolutePath() + "/>");
-                System.out.println("It exited");
-            }
-        }
-    }
+    // public void attachSS(String path)
+    // {
+    //     System.out.println("Count of images is: "+ countImagesInAFolder(path));
+    //     File f= new File(path);
+    //     for(File file: f.listFiles())
+    //     {
+    //         System.out.println("YES");
+    //         if(file.isFile() && file.getName().endsWith(".png"))
+    //         {
+    //             System.out.println("It entered");
+    //             System.out.println("Filepath is: "+ file.getAbsolutePath());
+    //             Reporter.log("</br><img id='ErrorResult' src='" + file.getAbsolutePath() + "/>");
+    //             System.out.println("It exited");
+    //         }
+    //     }
+    // }
 
 
     @AfterTest(alwaysRun = true)
