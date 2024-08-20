@@ -1,0 +1,33 @@
+[25373:25373:0820/124515.734041:WARNING:chrome_main_delegate.cc(750)] This is Chrome version 124.0.6367.118 (not a warning)
+[25373:25373:0820/124515.760590:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[25373:25373:0820/124515.760616:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[25373:25373:0820/124515.847400:INFO:chrome_browser_cloud_management_controller.cc(168)] Starting CBCM Controller Initialization
+[25373:25373:0820/124515.847441:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[25373:25373:0820/124515.914293:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[25446:25446:0820/124515.920058:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[25448:25448:0820/124515.921075:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[25405:25405:0820/124515.943736:WARNING:sandbox_linux.cc(420)] InitializeSandbox() called with multiple threads in process gpu-process.
+[25373:25373:0820/124515.948404:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[25373:25373:0820/124516.113150:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+[25496:25496:0820/124516.234771:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[25519:25519:0820/124516.574468:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[25373:25373:0820/124516.806677:WARNING:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: chrome://new-tab-page/ (0)
+[25373:25373:0820/124516.806749:WARNING:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: chrome://new-tab-page/ (0)
+[25373:25373:0820/124516.806785:WARNING:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: chrome://new-tab-page/ (0)
+[25373:25373:0820/124516.806822:WARNING:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: chrome://new-tab-page/ (0)
+[25373:25373:0820/124517.100420:INFO:CONSOLE(2)] "$mdThemingProvider: Using the same palette for primary and accent. This violates the material design spec.", source: https://d2l06hip5gskog.cloudfront.net/staging-5/script/vendor/angular-material-13e5e954.js (2)
+[25373:25373:0820/124517.719602:INFO:CONSOLE(1)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/home (1)
+[25373:25373:0820/124517.719738:INFO:CONSOLE(1)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/home (1)
+[25373:25373:0820/124517.719803:INFO:CONSOLE(1)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/home (1)
+[25373:25373:0820/124517.719851:INFO:CONSOLE(1)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/home (1)
+[25373:25373:0820/124521.991024:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order (0)
+[25373:25373:0820/124521.991149:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order (0)
+[25373:25373:0820/124521.991215:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order (0)
+[25373:25373:0820/124521.991286:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order (0)
+[25373:25373:0820/124523.339542:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order/purchase-order?filter=PO_STATUS:ACTIVE&filter=PURCHASE_ORDER_SOURCE:INVENTORY|STOCK_TRANSFER (0)
+[25373:25373:0820/124523.339606:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order/purchase-order?filter=PO_STATUS:ACTIVE&filter=PURCHASE_ORDER_SOURCE:INVENTORY|STOCK_TRANSFER (0)
+[25373:25373:0820/124523.339659:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order/purchase-order?filter=PO_STATUS:ACTIVE&filter=PURCHASE_ORDER_SOURCE:INVENTORY|STOCK_TRANSFER (0)
+[25373:25373:0820/124523.339763:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/bulk-order/purchase-order?filter=PO_STATUS:ACTIVE&filter=PURCHASE_ORDER_SOURCE:INVENTORY|STOCK_TRANSFER (0)
+[25416:25434:0820/124523.846692:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[25416:25434:0820/124523.846775:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[25373:25373:0820/124523.871427:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
