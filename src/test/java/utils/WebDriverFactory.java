@@ -22,7 +22,7 @@ public class WebDriverFactory {
 //        options.addArguments("--no-sandbox"); // Bypass OS security model
         //options.addArguments("--headless");
         options.addArguments("start-maximized", "--disable-infobars", "--remote-allow-origins=*", "--disable-dev-shm-usage", "--no-sandbox");
-        options.addArguments("user-data-dir=src/test/java/resources/AutomationProfile9/Default");
+        //options.addArguments("user-data-dir=src/test/java/resources/AutomationProfile9/Default");
         WebDriver driver = new ChromeDriver(options);
 
         //Adding Implicit wait that applies to all elements to avoid ElementNotFoundException
