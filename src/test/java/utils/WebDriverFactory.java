@@ -15,7 +15,7 @@ public class WebDriverFactory {
         //Setting Chrome Profile
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized", "--disable-infobars", "--remote-allow-origins=*", "--disable-dev-shm-usage", "--no-sandbox");
-        options.addArguments("user-data-dir=/home/yash/.config/google-chrome/AutomationProfile9");
+        options.addArguments("user-data-dir=src/test/java/resources/AutomationProfile9/Default");
         WebDriver driver = new ChromeDriver(options);
 
         //Adding Implicit wait that applies to all elements to avoid ElementNotFoundException

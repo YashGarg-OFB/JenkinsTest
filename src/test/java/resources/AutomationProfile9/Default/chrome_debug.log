@@ -1,0 +1,19 @@
+[12627:12627:0820/111836.690846:WARNING:chrome_main_delegate.cc(750)] This is Chrome version 124.0.6367.118 (not a warning)
+[12627:12627:0820/111836.716239:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[12627:12627:0820/111836.716269:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[12627:12627:0820/111836.790550:INFO:chrome_browser_cloud_management_controller.cc(168)] Starting CBCM Controller Initialization
+[12627:12627:0820/111836.790586:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[12627:12627:0820/111836.859497:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[12707:12707:0820/111836.865274:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[12717:12717:0820/111836.882949:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[12627:12627:0820/111836.908193:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[12661:12661:0820/111836.909400:WARNING:sandbox_linux.cc(420)] InitializeSandbox() called with multiple threads in process gpu-process.
+[12627:12627:0820/111837.058754:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+[12756:12756:0820/111837.188863:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[12793:12793:0820/111837.693598:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[12627:12627:0820/111838.928800:WARNING:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: chrome://new-tab-page/ (0)
+[12627:12627:0820/111843.921831:INFO:CONSOLE(1)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/ (1)
+[12627:12627:0820/111843.993028:INFO:CONSOLE(2)] "$mdThemingProvider: Using the same palette for primary and accent. This violates the material design spec.", source: https://d2l06hip5gskog.cloudfront.net/staging-5/script/vendor/angular-material-13e5e954.js (2)
+[12675:12695:0820/111844.549373:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[12675:12695:0820/111844.549441:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[12627:12627:0820/111844.570511:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
