@@ -1,2 +1,3 @@
-2024/08/20-11:18:36.798 3166 Creating DB /home/yash/Desktop/JenkinsTest/src/test/java/resources/AutomationProfile9/Default/Default/Site Characteristics Database since it was missing.
-2024/08/20-11:18:36.802 3166 Reusing MANIFEST /home/yash/Desktop/JenkinsTest/src/test/java/resources/AutomationProfile9/Default/Default/Site Characteristics Database/MANIFEST-000001
+2024/08/20-11:35:53.675 3beb Reusing MANIFEST /home/yash/Desktop/JenkinsTest/src/test/java/resources/AutomationProfile9/Default/Default/Site Characteristics Database/MANIFEST-000001
+2024/08/20-11:35:53.675 3beb Recovering log #3
+2024/08/20-11:35:53.675 3beb Reusing old log /home/yash/Desktop/JenkinsTest/src/test/java/resources/AutomationProfile9/Default/Default/Site Characteristics Database/000003.log 
