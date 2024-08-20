@@ -14,7 +14,7 @@ public class VirtualWarehouseFlow extends BaseTest {
 
     @Test
     public void goOnWelcomePage() throws IOException {
-
+        System.out.println("baseUrl is "+baseUrl);
         driver.get(baseUrl);
         loadPropFile();
         WelcomePage welcomePage= new WelcomePage(driver);

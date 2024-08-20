@@ -1,0 +1,29 @@
+[37469:37469:0820/165045.419630:WARNING:chrome_main_delegate.cc(750)] This is Chrome version 124.0.6367.118 (not a warning)
+[37469:37469:0820/165045.446686:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[37469:37469:0820/165045.446717:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[37469:37490:0820/165045.452305:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[37469:37490:0820/165045.452343:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[37469:37490:0820/165045.452486:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[37469:37490:0820/165045.452502:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[37469:37469:0820/165045.462976:INFO:chrome_browser_cloud_management_controller.cc(168)] Starting CBCM Controller Initialization
+[37469:37469:0820/165045.463015:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[37469:37490:0820/165045.470410:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[37469:37490:0820/165045.470449:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[37504:37504:0820/165045.511020:WARNING:sandbox_linux.cc(420)] InitializeSandbox() called with multiple threads in process gpu-process.
+[37469:37469:0820/165045.511581:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[37547:37547:0820/165045.518807:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[37469:37469:0820/165045.539001:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[37560:37560:0820/165045.558661:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[37574:37574:0820/165045.708215:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[37469:37469:0820/165046.269047:INFO:CONSOLE(2)] "$mdThemingProvider: Using the same palette for primary and accent. This violates the material design spec.", source: https://d2l06hip5gskog.cloudfront.net/staging-5/script/vendor/angular-material-13e5e954.js (2)
+[37469:37469:0820/165046.938821:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/home (0)
+[37469:37469:0820/165047.052091:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/oasys-fe/home (0)
+[37469:37469:0820/165047.709147:INFO:CONSOLE(2)] "$mdThemingProvider: Using the same palette for primary and accent. This violates the material design spec.", source: https://d2l06hip5gskog.cloudfront.net/staging-5/script/vendor/angular-material-13e5e954.js (2)
+[37469:37469:0820/165047.808307:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://stg5-cms.ofbusiness.co.in/#/login?rd=%2Foasys-fe%2Fhome' was loaded over HTTPS, but requested an insecure element 'http://ofbtech.s3.amazonaws.com/fe-imgs/oasys_signup.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html", source: https://stg5-cms.ofbusiness.co.in/#/login?rd=%2Foasys-fe%2Fhome (0)
+[37606:37606:0820/165047.810910:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[37469:37469:0820/165047.846210:INFO:CONSOLE(0)] "Not signed in with the identity provider.", source: https://stg5-cms.ofbusiness.co.in/#/login?rd=%2Foasys-fe%2Fhome (0)
+[37469:37469:0820/165048.030564:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/#/login?rd=%2Foasys-fe%2Fhome (0)
+[37469:37469:0820/165048.210499:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://stg5-cms.ofbusiness.co.in/#/login?rd=%2Foasys-fe%2Fhome (0)
+[37469:37469:0820/165056.737828:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:1463571
+[37469:37469:0820/165104.112705:INFO:CONSOLE(66)] "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.", source: https://accounts.google.com/gsi/client (66)
+[37469:37469:0820/165118.398936:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

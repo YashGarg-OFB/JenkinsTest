@@ -16,13 +16,15 @@ public class WebDriverFactory {
         ChromeOptions options = new ChromeOptions();
 //        options.addArguments("start-maximized"); // open Browser in maximized mode
 //        options.addArguments("disable-infobars"); // disabling infobars
+
+        options.setBinary("/usr/bin/google-chrome");
         options.addArguments("--disable-extensions"); // disabling extensions
         //options.addArguments("--disable-gpu"); // applicable to windows os only
 //        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 //        options.addArguments("--no-sandbox"); // Bypass OS security model
-        //options.addArguments("--headless");
+        options.addArguments("--headless=new");
         options.addArguments("start-maximized", "--disable-infobars", "--remote-allow-origins=*", "--disable-dev-shm-usage", "--no-sandbox");
-        options.addArguments("user-data-dir=srcsrc/test/java/resources/Profile/AutomationProfile9");
+        options.addArguments("user-data-dir=src/test/java/resources/Profile/AutomationProfile9");
         WebDriver driver = new ChromeDriver(options);
 
         //Adding Implicit wait that applies to all elements to avoid ElementNotFoundException

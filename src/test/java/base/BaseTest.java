@@ -32,7 +32,7 @@ public class BaseTest {
         this.baseUrl = Host.getServerConfig(env).getBaseUrl();
         this.salesUrl=Host.getServerConfig(env).getSalesUrl();
         this.apiPath = Host.getServerConfig(env).getApi();
-        this.redisKey = RedisUtil.getKey(env);
+//        this.redisKey = RedisUtil.getKey(env);
         this.adminAuthToken ="6082351515186501364";
     }
 

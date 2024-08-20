@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class RedisUtil {
 
     public static String getKey(String configName) throws Exception {
-
+        System.out.println("config name is "+configName);
         Host.ServerConfig config = Host.getServerConfig(configName);
 
         if (config == null) {
