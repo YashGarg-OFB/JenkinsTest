@@ -10,7 +10,7 @@ public class WebDriverFactory {
     public static WebDriver createDriver() {
 
         //Setting Chrome Driver path
-        System.setProperty("webdriver.chrome.driver", "/home/yash/Downloads/chromedriver-linux64/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriver-linux64/chromedriver");
 
         //Setting Chrome Profile
         ChromeOptions options = new ChromeOptions();

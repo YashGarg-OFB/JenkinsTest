@@ -83,7 +83,6 @@ public class BaseTest {
     @AfterTest(alwaysRun = true)
     public void tearDown() {
         if (driver != null) {
-           // attachSS("/home/yash/IdeaProjects/TMP/src/test/java/screenshots/");
             System.out.println("The last ongoing url:\n"+driver.getCurrentUrl());
             driver.quit();
         }
